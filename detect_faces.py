@@ -1,7 +1,7 @@
 import cv2
 
 #cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('rtsp://admin:123456@192.168.0.101:554/live/ch0')
+cap = cv2.VideoCapture('rtsp://admin:123456@192.168.10.8:554/live/ch0')
 
 faceClassif = cv2.CascadeClassifier('/home/michael/python/haarcascade_frontalface_default.xml')
 
